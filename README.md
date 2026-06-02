@@ -13,9 +13,6 @@
 
 
 
-
-is a lightweight, fast, and safe utility designed to clean temporary files, cache, and system clutter from Windows operating systems.
-
 ✨ Key Features:
 --------------------------
 Deep Cleaning: Effectively removes temporary folders (Temp), browser cache, and leftover Windows update files.
