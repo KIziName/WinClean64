@@ -1,5 +1,6 @@
 # WinClean64
 это лёгкая, быстрая и безопасная утилита для очистки операционной системы Windows от временных файлов, кэша и системного мусора.
+
 is a lightweight, fast, and safe utility designed to clean temporary files, cache, and system clutter from Windows operating systems.
 
 ✨ Ключевые возможности:
