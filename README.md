@@ -11,6 +11,9 @@
 
 Портативность: Не требует установки — один файл готов к работе сразу после запуска.
 
+
+
+
 is a lightweight, fast, and safe utility designed to clean temporary files, cache, and system clutter from Windows operating systems.
 
 ✨ Key Features:
