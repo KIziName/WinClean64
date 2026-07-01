@@ -2,7 +2,7 @@
 import sys
 import ctypes
 import atexit
-
+import os 
 def _init_system_wide_mutex():
     kernel32 = ctypes.windll.kernel32
     clean_name = os.path.basename(sys.argv[0]).replace('.', '_').replace(' ', '_')
@@ -30,12 +30,9 @@ def _init_system_wide_mutex():
         
     atexit.register(lambda: kernel32.CloseHandle(mutex_handle) if mutex_handle else None)
 
-import os
 _init_system_wide_mutex()
 # ======================================================================
 
-import sys
-import os
 import shutil
 import tempfile
 import webbrowser
@@ -43,19 +40,6 @@ import threading
 from pathlib import Path
 import tkinter as tk
 import customtkinter as ctk
-
-# Защита от повторного запуска (только для Windows)
-if os.name == 'nt':
-    import ctypes
-    kernel32 = ctypes.windll.kernel32
-    MUTEX_NAME = "Local\\WinClean64_Unique_Mutex_Shared_Zone"
-    mutex_global = kernel32.CreateMutexW(None, True, MUTEX_NAME)
-    if kernel32.GetLastError() == 183:
-        if mutex_global:
-            kernel32.CloseHandle(mutex_global)
-        sys.exit(0)
-else:
-    mutex_global = None
 
 # Фикс отсутствия sys.stdin при --noconsole
 if sys.stdin is None:
