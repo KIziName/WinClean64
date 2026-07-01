@@ -451,7 +451,6 @@ class WinClean64App(ctk.CTk):
 
     def on_closing(self):
         self.destroy()
-        
         sys.exit(0)
 
 
