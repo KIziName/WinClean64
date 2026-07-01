@@ -3,6 +3,7 @@ import sys
 import ctypes
 import atexit
 import os 
+
 def _init_system_wide_mutex():
     kernel32 = ctypes.windll.kernel32
     clean_name = os.path.basename(sys.argv[0]).replace('.', '_').replace(' ', '_')
@@ -449,12 +450,8 @@ class WinClean64App(ctk.CTk):
         self.clean_button.configure(state="normal", text=self.text_data[self.current_lang]["btn_clean"])
 
     def on_closing(self):
-        try:
-            if os.name == 'nt' and 'mutex_global' in globals() and mutex_global:
-                kernel32.CloseHandle(mutex_global)
-            self.destroy()
-        except Exception:
-            pass
+        self.destroy()
+        
         sys.exit(0)
 
 
