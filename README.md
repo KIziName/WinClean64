@@ -7,9 +7,13 @@
 ## ✨ Key Features
 
 · Deep cleaning – removes temporary files (Temp), cache, logs, and other unused data.
+
 · Safe – only affects temporary directories, does not touch system files or personal user data.
+
 · Blazing fast – cleaning runs instantly, freeing up disk space.
+
 · Customizable theme – supports both light and dark interface themes.
+
 · Bilingual interface – switch between Russian and English on the fly.
 
 ---
@@ -17,6 +21,7 @@
 ## 📋 Requirements
 
 · ***Python 3.7*** or higher
+
 · `pip install customtkinter`
 
 ---
@@ -30,9 +35,13 @@
 ## ✨ Ключевые возможности 
 
 · Глубокая очистка – удаляет временные файлы (Temp), кэш, логи.
+
 · Безопасность – затрагивает только временные каталоги, не влияет на системные файлы и личные данные пользователя.
+
 · Высокая скорость – очистка выполняется мгновенно, освобождая место на диске.
+
 · Настраиваемая тема – поддерживает светлую и тёмную тему интерфейса.
+
 · Двуязычный интерфейс – русский и английский языки переключаются на лету.
 
 ---
@@ -40,4 +49,5 @@
 ## 📋 Требования
 
 · ***Python 3.7*** или выше 
+
 · `pip install customtkinter`
