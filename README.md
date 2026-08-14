@@ -1,26 +1,43 @@
-# WinClean64
-это лёгкая, быстрая и безопасная утилита для очистки операционной системы Windows от временных файлов, кэша и системного мусора.
+## WinClean64
 
-is a lightweight, fast, and safe utility designed to clean temporary files, cache, and system clutter from Windows operating systems.
+***WinClean64*** is a lightweight, fast, and safe utility for cleaning temporary files, cache, and system junk from Windows operating systems.
 
-✨ Ключевые возможности:
---------------------------
-Глубокая очистка: Эффективно удаляет временные файлы (Temp), кэш браузеров и остаточные файлы обновлений Windows.
+---
 
-Безопасность для системы: Удаляет только ненужный мусор, не затрагивая важные системные компоненты или личные данные пользователя.
+## ✨ Key Features
 
-Максимальная скорость: Работает мгновенно, помогая быстро освободить место на диске и оптимизировать работу накопителя.
+· Deep cleaning – removes temporary files (Temp), cache, logs, and other unused data.
+· Safe – only affects temporary directories, does not touch system files or personal user data.
+· Blazing fast – cleaning runs instantly, freeing up disk space.
+· Customizable theme – supports both light and dark interface themes.
+· Bilingual interface – switch between Russian and English on the fly.
 
-Портативность: Не требует установки — один файл готов к работе сразу после запуска.
+---
 
+## 📋 Requirements
 
+· ***Python 3.7*** or higher
+· `pip install customtkinter`
 
-✨ Key Features:
---------------------------
-Deep Cleaning: Effectively removes temporary folders (Temp), browser cache, and leftover Windows update files.
+---
 
-System-Safe: Deletes only unnecessary junk without affecting critical system components or user data.
+## WinClean64
 
-Blazing Fast: Runs instantly, helping you quickly free up disk space and optimize drive performance.
+***WinClean64*** — лёгкая, быстрая и безопасная утилита для очистки операционной системы Windows от временных файлов, кэша и системного мусора.
 
-Portable: Requires no installation — a single executable file that is ready to run out of the box.
+---
+
+## ✨ Ключевые возможности 
+
+· Глубокая очистка – удаляет временные файлы (Temp), кэш, логи.
+· Безопасность – затрагивает только временные каталоги, не влияет на системные файлы и личные данные пользователя.
+· Высокая скорость – очистка выполняется мгновенно, освобождая место на диске.
+· Настраиваемая тема – поддерживает светлую и тёмную тему интерфейса.
+· Двуязычный интерфейс – русский и английский языки переключаются на лету.
+
+---
+
+## 📋 Требования
+
+· ***Python 3.7*** или выше 
+· `pip install customtkinter`
