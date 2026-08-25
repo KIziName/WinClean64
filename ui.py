@@ -3,12 +3,10 @@ import threading
 import re
 import webbrowser
 import customtkinter as ctk
-
-from cleaner import clean_temp_files_backend
 import config as cfg
 
+from cleaner import clean_temp_files_backend
 
-# -------------------- AboutWindow --------------------
 class AboutWindow(ctk.CTkToplevel):
     def __init__(self, parent, text_data, github_url, app_name, app_version):
         super().__init__(parent)
@@ -66,8 +64,6 @@ class AboutWindow(ctk.CTkToplevel):
         )
         self.close_button.pack(side="bottom", pady=20)
 
-
-# -------------------- UIManager --------------------
 class UIManager:
     def __init__(self, app):
         self.app = app
@@ -168,8 +164,6 @@ class UIManager:
         self.current_lang = choice.lower()
         self.update_all_texts()
 
-
-# -------------------- CleanupController --------------------
 class CleanupController:
     def __init__(self, app):
         self.app = app
@@ -220,8 +214,6 @@ class CleanupController:
         self.is_cleaning = False
         self.app.clean_button.configure(state="normal", text=cfg.TEXT_DATA[self.app.ui.current_lang]["btn_clean"])
 
-
-# -------------------- WinClean64App --------------------
 def build_ui(app):
     # Верхняя панель
     app.header_frame = ctk.CTkFrame(app, fg_color=cfg.COLOR_HEADER_FG, corner_radius=0, height=70)
