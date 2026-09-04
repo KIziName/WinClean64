@@ -14,8 +14,6 @@
 
 · Customizable theme – supports both light and dark interface themes.
 
-· Bilingual interface – switch between Russian and English on the fly.
-
 ---
 
 ## 📋 Requirements
@@ -41,8 +39,6 @@
 · Высокая скорость – очистка выполняется мгновенно, освобождая место на диске.
 
 · Настраиваемая тема – поддерживает светлую и тёмную тему интерфейса.
-
-· Двуязычный интерфейс – русский и английский языки переключаются на лету.
 
 ---
 
