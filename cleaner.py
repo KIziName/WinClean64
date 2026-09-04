@@ -28,7 +28,7 @@ def clean_temp_files_backend(on_start, on_log, on_success, on_error, on_finish):
         for item in items:
             try:
                 real_path = item.resolve(strict=True)
-                if not real_path.is_relative_to(base_temp_dir):
+                if base_temp_dir not in real_path.parents:
                     skipped_objects += 1
                     continue
 
