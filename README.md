@@ -2,7 +2,6 @@
 
 ***WinClean64*** is a lightweight, fast, and safe utility for cleaning temporary files, cache, and system junk from Windows operating systems.
 
----
 
 ## ✨ Key Features
 
@@ -14,7 +13,6 @@
 
 · Customizable theme – supports both light and dark interface themes.
 
----
 
 ## 📋 Requirements
 
@@ -22,13 +20,11 @@
 
 · `pip install customtkinter`
 
----
 
 ## WinClean64
 
 ***WinClean64*** — лёгкая, быстрая и безопасная утилита для очистки операционной системы Windows от временных файлов, кэша и системного мусора.
 
----
 
 ## ✨ Ключевые возможности 
 
@@ -40,7 +36,6 @@
 
 · Настраиваемая тема – поддерживает светлую и тёмную тему интерфейса.
 
----
 
 ## 📋 Требования
 
